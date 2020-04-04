@@ -1,0 +1,75 @@
+body{
+    margin:10px 20px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+.run{
+    margin :26px 0;
+
+   
+}
+
+.run input{
+    width:40%;
+    border:none;
+    outline: thick;
+    border-bottom: 1px solid ;
+    font-size: 50px;
+    font-weight: 200;
+    outline: none;
+
+    
+}
+
+.run label{
+    width:80%;
+    padding-right: 20px;
+    
+
+    font-weight: 500;
+    font-size: 40px;
+}
+
+button{
+    padding:12px 0;
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+button:hover{
+    opacity: .3;
+}
+
+button:disabled{
+    
+    opacity: .3;
+}
+#control{
+    width:46%;
+    display:inline-block;
+    border-right: 1px solid;
+    padding-bottom: 42px;
+    padding-right: 42px;
+}
+h2{
+    font-size: 80px;
+    font-weight: 200;
+   padding-left: 100px; 
+   
+    display: inline-block;
+    
+    vertical-align:top;
+}
+
+    
+
+
+
+  

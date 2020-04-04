@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK WORK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Clock work</h1>
+
+<section id="control">
+    
+        <div class="run">
+        <label for="minutes-input">Minutes</label>
+        <input type="number" placeholder="0" id="minutes-input" max="300" min="0">
+        </div>
+
+        <div class="run">
+            <label for="seconds-input">Seconds</label>
+            <input type="number" placeholder="0" id="seconds-input" max="59" min="0" step="5">
+            </div>
+
+
+            <button type="button" id= "start-button" onclick="startTimer()">Start</button>
+            <button type="button"  id= "stop-button" disabled onclick="stopTimer()" > Stop</button>
+            <button type="button"  id= "pause-button" disabled onclick="pauseTimer()" >Pause</button>
+
+            
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</section>
+
+<h2><span id="minutes">0</span>: <span id="seconds">00</span></h2>
+
+
+
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script src="script.js" type="text/javascript">
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+
+</html>
